@@ -4,23 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".componentes_layout">
+    tools:context=".componentes_layout"
+    android:background="@drawable/Logo"
+    >
 
-    <EditText
-        android:drawableRight="@drawable/ic_baseline_email"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Insira seu e-mail"
-        android:inputType="TextEmailAddress"
-        android:maxLength="100" />
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="#3CA66279"
+        >
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableRight="@drawable/ic_baseline_lock"
-        android:hint="Insira sua senha"
-        android:inputType="TextPassord"
-        android:maxLength="100" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/ic_baseline_email"
+            android:hint="@string/insira_seu_e_mail"
+            android:inputType="textEmailAddress"
+            android:maxLength="100" />
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/ic_baseline_lock"
+            android:hint="@string/insira_sua_senha"
+            android:inputType="textPassword"
+            android:maxLength="100" />
+    </LinearLayout>
 </LinearLayout>
