@@ -2,4 +2,7 @@
     <string name="app_name">myapps2</string>
     <string name="insira_seu_e_mail">Insira seu e-mail</string>
     <string name="insira_sua_senha">Insira sua senha</string>
+    <string name="insira_email">Inserir seu e-mail</string>
+    <string name="senha">Inserir sua senha</string>
+    <string name="entrar">Entrar</string>
 </resources>
